@@ -29,4 +29,35 @@ public class MainCalculator {
                 // Reading user's choice
                 choice = sc.nextInt();
 
+                // Call appropriate class method based on user choice
+                switch (choice) {
+                    case 1:
+                        Addition.performAddition(sc);
+                        break;
+                    case 2:
+                        Subtraction.performSubtraction(sc);
+                        break;
+                    case 3:
+                        Multiplication.performMultiplication(sc);
+                        break;
+                    case 4:
+                        Division.performDivision(sc);
+                        break;
+                    case 5:
+                        Square.performSquare(sc);
+                        break;
+                    case 6:
+                        Cube.performCube(sc);
+                        break;
+                    case 7:
+                        SquareRoot.performSquareRoot(sc);
+                        break;
+                    case 8:
+                        System.out.println("Exiting the Calculator. Goodbye!");
+                        break;
+                    default:
+                        System.out.println("Invalid choice! Please select from 1 to 8.");
+                }
+
+
 
