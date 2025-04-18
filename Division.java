@@ -12,4 +12,13 @@ public class Division {
             System.out.print("Enter denominator: ");
             double b = sc.nextDouble();
 
+            // Prevent division by zero
+            if (b == 0) {
+                throw new ArithmeticException("Cannot divide by zero.");
+            }
+
+            double result = a / b;
+            System.out.println("Result = " + result);
+
+
 
