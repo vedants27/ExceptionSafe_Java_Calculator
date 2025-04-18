@@ -50,7 +50,9 @@ Each arithmetic operation is implemented in a **separate Java file** and encapsu
 
 ##  How to Compile & Run
 
-1. Open terminal/command prompt and navigate to the project directory.
+1. Clone the Repository
+git clone https://github.com/vedants27/ExceptionSafe_Java_Calculator
+cd ExceptionSafe_Java_Calculator
 2. Compile all Java files:
    ```bash
    javac MainCalculator.java
