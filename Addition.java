@@ -14,4 +14,12 @@ public class Addition {
             double result = a + b;
             System.out.println("Result = " + result);
 
+      } catch (Exception e) {
+            // General exception handling
+            System.out.println("Error in addition: " + e.getMessage());
+        }
+    }
+}
+
+
  
