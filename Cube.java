@@ -11,4 +11,10 @@ public class Cube {
 
             double result = a * a * a;
             System.out.println("Cube = " + result);
+            } catch (Exception e) {
+            System.out.println("Error in calculating cube: " + e.getMessage());
+        }
+    }
+}
+
 
