@@ -13,3 +13,9 @@ public class Multiplication {
 
             double result = a * b;
             System.out.println("Result = " + result);
+                    } catch (Exception e) {
+            System.out.println("Error in multiplication: " + e.getMessage());
+        }
+    }
+}
+
