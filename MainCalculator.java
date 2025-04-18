@@ -64,6 +64,12 @@ public class MainCalculator {
                 sc.next(); // Clear invalid input
                 choice = 0; // Reset choice to continue loop
             }
+          } while (choice != 8); // Repeat until user chooses to exit
+
+        sc.close(); // Closing the scanner
+    }
+}
+
 
 
 
