@@ -12,4 +12,10 @@ public class Subtraction {
 
             double result = a - b;
             System.out.println("Result = " + result);
+                    } catch (Exception e) {
+            System.out.println("Error in subtraction: " + e.getMessage());
+        }
+    }
+}
+
 
