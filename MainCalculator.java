@@ -58,6 +58,13 @@ public class MainCalculator {
                     default:
                         System.out.println("Invalid choice! Please select from 1 to 8.");
                 }
+                            } catch (InputMismatchException e) {
+                // Handles non-integer inputs
+                System.out.println("Invalid input! Please enter numeric values.");
+                sc.next(); // Clear invalid input
+                choice = 0; // Reset choice to continue loop
+            }
+
 
 
 
